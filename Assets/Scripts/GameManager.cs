@@ -81,6 +81,11 @@ public class GameManager : MonoBehaviour
        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 
+    public void OnStartButton()
+    {
+       UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
+
     public void OnDeath()
     {
         IsDead = true;

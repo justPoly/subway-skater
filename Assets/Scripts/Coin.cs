@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     private Animator anim;
+
     // Start is called before the first frame update
     private void Awake()
     {
